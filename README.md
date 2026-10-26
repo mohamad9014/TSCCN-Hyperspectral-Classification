@@ -8,6 +8,17 @@ Task: pixel-wise classification of 4 organs (kidney, liver, spleen, stomach).
 Evaluation is subject-disjoint (split by pig): 8 pigs train, P094 validation,
 P087 test. 32 cubes in total (8 per organ).
 
+
+## Technologies Used
+
+- **Python** – Main programming language
+- **PyTorch** – Deep learning framework
+- **Hyperspectral Imaging (HSI)** – Medical image analysis
+- **Convolutional Neural Networks (CNNs)** – Spectral and spatial feature extraction
+- **Capsule Networks (CapsNet)** – Feature representation and classification
+- **Dynamic Routing** – Information routing between capsule layers
+  
+
 ## Folder layout
 
 ```
