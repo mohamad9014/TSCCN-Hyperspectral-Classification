@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets
+data/
+datasets/
+
+# Training logs and temporary outputs
+logs/
+runs/
+wandb/
+
+# System files
+.DS_Store
+Thumbs.db
